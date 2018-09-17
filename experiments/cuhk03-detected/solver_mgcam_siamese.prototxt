@@ -1,0 +1,15 @@
+net: "mgcam_siamese_train.prototxt"
+
+test_iter: 10
+test_interval:1000 
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 10000
+display: 10
+max_iter: 20000
+momentum: 0.9
+weight_decay: 0.005
+snapshot: 5000
+snapshot_prefix: "mgcam_siamese"
+solver_mode: GPU
