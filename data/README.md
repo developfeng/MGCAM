@@ -14,7 +14,7 @@ Dataset Preparation.
     }
     
     >@inproceedings{li2014deepreid, 
-    title={DeepReID: Deep Filter Pairing Neural Network for Person Re-identification},  
+    title={DeepReID: Deep Filter Pairing Neural Network for Person Re-identification},   
     author={Li, Wei and Zhao, Rui and Xiao, Tong and Wang, Xiaogang},   
     booktitle={CVPR},   
     year={2014} 
