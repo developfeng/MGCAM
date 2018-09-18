@@ -18,7 +18,7 @@ This code implements the paper:
 Contrastive Attention Model for Person Re-Identification. 
 In CVPR, 2018.
 
-If you find this work is helpful for your research, please cite our paper [PDF](http://openaccess.thecvf.com/content_cvpr_2018/html/Song_Mask-Guided_Contrastive_Attention_CVPR_2018_paper.html).
+If you find this work is helpful for your research, please cite our paper [[PDF]](http://openaccess.thecvf.com/content_cvpr_2018/html/Song_Mask-Guided_Contrastive_Attention_CVPR_2018_paper.html).
 
 ii. COPYING
 -----------------------------
