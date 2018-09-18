@@ -9,7 +9,7 @@ Dataset Preparation.
     >@inproceedings{zhong2017re,    
       title={Re-ranking Person Re-identification with k-reciprocal Encoding},   
       author={Zhong, Zhun and Zheng, Liang and Cao, Donglin and Li, Shaozi},    
-      booktitle={CVPR}, 
+      booktitle={CVPR},  
       year={2017}   
     }
     
@@ -20,7 +20,11 @@ Dataset Preparation.
     year={2014} 
     }
     
-* All masks can be download from [Baidu Yun](https://pan.baidu.com/s/16ZrlM1f_1_T-eZHmQTTkYg) OR [Google Drive](https://drive.google.com/drive/folders/1QVBDpH0B4k6cXKFYXBJ3HNVET_3gY0to?usp=sharing).
+* All masks can be download from [Baidu Yun](https://pan.baidu.com/s/16ZrlM1f_1_T-eZHmQTTkYg) OR [Google Drive](https://drive.google.com/drive/folders/1QVBDpH0B4k6cXKFYXBJ3HNVET_3gY0to?usp=sharing). If you use the masks in your work, please cite our paper:
+
+>Chunfeng Song, Yan Huang, Wanli Ouyang, and Liang Wang. Mask-guided 
+Contrastive Attention Model for Person Re-Identification. 
+In CVPR, 2018.
 
 Make sure that all the datasets are saveing in the following structure:
 
