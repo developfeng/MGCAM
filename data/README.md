@@ -6,18 +6,18 @@ Dataset Preparation.
 
 3) Download CUHK03 dataset from [here](https://github.com/zhunzhong07/person-re-ranking). You need to extract the images into folods. You can also download the new protocol version [CUHK03-NP](https://github.com/zhunzhong07/person-re-ranking/tree/master/CUHK03-NP). If you use this dataset in your work, please cite their paper:
 
-    >@inproceedings{zhong2017re,
-      title={Re-ranking Person Re-identification with k-reciprocal Encoding},
-      author={Zhong, Zhun and Zheng, Liang and Cao, Donglin and Li, Shaozi},
-      booktitle={CVPR},
-      year={2017}
+    >@inproceedings{zhong2017re,    
+      title={Re-ranking Person Re-identification with k-reciprocal Encoding},   
+      author={Zhong, Zhun and Zheng, Liang and Cao, Donglin and Li, Shaozi},    
+      booktitle={CVPR}, 
+      year={2017}   
     }
     
-    >@inproceedings{li2014deepreid,
-    title={DeepReID: Deep Filter Pairing Neural Network for Person Re-identification},
-    author={Li, Wei and Zhao, Rui and Xiao, Tong and Wang, Xiaogang},
-    booktitle={CVPR},
-    year={2014}
+    >@inproceedings{li2014deepreid, 
+    title={DeepReID: Deep Filter Pairing Neural Network for Person Re-identification},  
+    author={Li, Wei and Zhao, Rui and Xiao, Tong and Wang, Xiaogang},   
+    booktitle={CVPR},   
+    year={2014} 
     }
     
 * All masks can be download from [Baidu Yun](https://pan.baidu.com/s/16ZrlM1f_1_T-eZHmQTTkYg) OR [Google Drive](https://drive.google.com/drive/folders/1QVBDpH0B4k6cXKFYXBJ3HNVET_3gY0to?usp=sharing).
