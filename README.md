@@ -39,13 +39,17 @@ For Market-1501 and CUHK-03, you need to run the spilt code(./data/gen_market150
 (2) Model Training.  
 Here, we take MARS as an example. The other two datasets are the same.
 
-cd ./experiments/mars
+>cd ./experiments/mars
 
 First eidt the 'im_path', 'gt_path' and 'dataset' in the prototxt file, e.g., the MGCAM-Sia version for MARS dataset is 'mgcam_train.prototxt' and 'mgcam_siamese_train.prototxt'. 
 
-Then, we can train the MGCAM model from scratch with the command 'run_mgcam.sh'. It will take roughly 15 hours for single Titan X.
+Then, we can train the MGCAM model from scratch with the command:
+>sh run_mgcam.sh
+It will take roughly 15 hours for single Titan X.
 
-Finally, we can fine-tune the MGCAM model with siamese loss via run the commman 'run_mgcam_siamese.sh'. It will take roughly 5 hours for single Titan X.
+Finally, we can fine-tune the MGCAM model with siamese loss via run the commman:
+>sh run_mgcam_siamese.sh
+It will take roughly 5 hours for single Titan X.
 
 (3) Evaluation.  
 Taking MARS for example, run the code in './evaluation/extract_feature_mars.py' to extract the IDE features, and then run the CMC and mAP evaluation with the [MARS-evaluation](https://github.com/liangzheng06/MARS-evaluation) code by Liang Zheng et al., or the [Re-Ranking](https://github.com/zhunzhong07/person-re-ranking) by Zhun Zhong et al.
