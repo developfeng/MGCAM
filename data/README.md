@@ -33,40 +33,40 @@ MARS:
 >./data/mars/bbox_test_seg  
 
 Market-1501:
->./data
->./data/market-1501
->./data/market-1501/bounding_box_train
->./data/market-1501/bounding_box_test
->./data/market-1501/query
->./data/market-1501/bounding_box_train_seg
->./data/market-1501/bounding_box_test_seg
->./data/market-1501/query_seg
+>./data 
+>./data/market-1501 
+>./data/market-1501/bounding_box_train  
+>./data/market-1501/bounding_box_test   
+>./data/market-1501/query   
+>./data/market-1501/bounding_box_train_seg  
+>./data/market-1501/bounding_box_test_seg   
+>./data/market-1501/query_seg   
 
 CUHK03:
->./data
->./data/cuhk03
->./data/cuhk03/labeled
->./data/cuhk03/cuhk03_labeled_seg
->./data/cuhk03/detected
->./data/cuhk03/cuhk03_detected_seg
+>./data 
+>./data/cuhk03  
+>./data/cuhk03/labeled  
+>./data/cuhk03/cuhk03_labeled_seg   
+>./data/cuhk03/detected 
+>./data/cuhk03/cuhk03_detected_seg  
 
 CUHK03-NP:
->./data
->./data/cuhk03-np
->./data/cuhk03-np/labeled
->./data/cuhk03-np/labeled/bounding_box_train
->./data/cuhk03-np/labeled/bounding_box_test
->./data/cuhk03-np/labeled/query
->./data/cuhk03-np/labeled/bounding_box_train_seg
->./data/cuhk03-np/labeled/bounding_box_test_seg
->./data/cuhk03-np/labeled/query_seg
+>./data 
+>./data/cuhk03-np   
+>./data/cuhk03-np/labeled   
+>./data/cuhk03-np/labeled/bounding_box_train    
+>./data/cuhk03-np/labeled/bounding_box_test 
+>./data/cuhk03-np/labeled/query 
+>./data/cuhk03-np/labeled/bounding_box_train_seg    
+>./data/cuhk03-np/labeled/bounding_box_test_seg 
+>./data/cuhk03-np/labeled/query_seg 
 
->./data/cuhk03-np/detected
->./data/cuhk03-np/detected/bounding_box_train
->./data/cuhk03-np/detected/bounding_box_test
->./data/cuhk03-np/detected/query
->./data/cuhk03-np/detected/bounding_box_train_seg
->./data/cuhk03-np/detected/bounding_box_test_seg
->./data/cuhk03-np/detected/query_seg
+>./data/cuhk03-np/detected  
+>./data/cuhk03-np/detected/bounding_box_train   
+>./data/cuhk03-np/detected/bounding_box_test    
+>./data/cuhk03-np/detected/query    
+>./data/cuhk03-np/detected/bounding_box_train_seg   
+>./data/cuhk03-np/detected/bounding_box_test_seg    
+>./data/cuhk03-np/detected/query_seg    
 
 Now, you can run the code to generate training set with running "python gen_market1501_and_cuhk03_train_set.py".
