@@ -41,7 +41,7 @@ Here, we take MARS as an example. The other two datasets are the same.
 
 >cd ./experiments/mars
 
-First eidt the 'im_path', 'gt_path' and 'dataset' in the prototxt file, e.g., the MGCAM-Sia version for MARS dataset is 'mgcam_train.prototxt' and 'mgcam_siamese_train.prototxt'. 
+First eidt the 'im_path', 'gt_path' and 'dataset' in the prototxt file, e.g., the MGCAM-only and MGCAM-Siamese version for MARS dataset is 'mgcam_train.prototxt' and 'mgcam_siamese_train.prototxt', respectively. 
 
 Then, we can train the MGCAM model from scratch with the command:
 >sh run_mgcam.sh  
