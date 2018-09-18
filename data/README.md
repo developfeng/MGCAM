@@ -25,12 +25,12 @@ Dataset Preparation.
 Make sure that all the datasets are saveing in the following structure:
 
 MARS:
->./data
->./data/mars
->./data/mars/bbox_train
->./data/mars/bbox_test
->./data/mars/bbox_train_seg
->./data/mars/bbox_test_seg
+>./data 
+>./data/mars    
+>./data/mars/bbox_train 
+>./data/mars/bbox_test  
+>./data/mars/bbox_train_seg 
+>./data/mars/bbox_test_seg  
 
 Market-1501:
 >./data
