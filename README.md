@@ -1,8 +1,7 @@
 # MGCAM
 --------------------------------------------------------------------------------
 * Mask-guided Contrastive Attention Model (MGCAM) for Person Re-Identification 
-* Code Version 1.0                                                             
-* By Chunfeng Song                                                            
+* Code Version 1.0                                                                                                                       
 * E-mail: chunfeng.song@nlpr.ia.ac.cn                                          
 ---------------------------------------------------------------------------------
 
